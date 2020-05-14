@@ -1,0 +1,124 @@
+/*main font color #757575 */
+/*secondary font color #212121 */
+/*text hover color #2196F3 */
+/*white color #FFFFFF */
+/*grey icons #AFB1B8 */
+/*big icons fill, our team fill #F5F4FA */
+/*footer color #2F303A */
+/*footer-text-gray rgba(255, 255, 255, 0.6) */
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+:root {
+  --main-font-color: #757575;
+  --secondary-font-color: #212121;
+  --text-hover-color: #2196f3;
+  --white-color: #ffffff;
+  --footer-color: #2f303a;
+  --footer-text-gray: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--main-font-color);
+}
+.logo {
+  color: var(--secondary-font-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.webcolour {
+  color: var(--text-hover-color);
+}
+.site-nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14;
+  line-height: 1.2;
+  color: var(--main-font-color);
+}
+
+/*убрать подчеркивания ссылок*/
+a {
+  text-decoration: none;
+  color: var(--secondary-font-color);
+}
+
+a:hover,
+a:focus {
+  color: var(--text-hover-color);
+}
+.footer-address-first-part {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--white-color);
+}
+.footer-address-second-part {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--footer-text-gray);
+}
+
+.logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.2;
+  color: var(--white-color);
+}
+.webcolour {
+  color: var(--text-hover-color);
+}
+
+.footer-background {
+  background-color: var(--footer-color);
+}
+.footer-subscription {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.footer-social-links {
+  color: var(--white-color);
+}
+.developers {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 2;
+  color: var(--footer-text-gray);
+}
+.footer-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  background-color: var(--text-hover-color);
+  color: var(--white-color);
+}

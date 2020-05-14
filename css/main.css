@@ -1,0 +1,86 @@
+/*main font color #757575 */
+/*secondary font color #212121 */
+/*text hover color #2196F3 */
+/*white color #FFFFFF */
+/*grey icons #AFB1B8 */
+/*big icons fill, our team fill #F5F4FA */
+/*footer color #2F303A */
+/*footer-text-gray rgba(255, 255, 255, 0.6) */
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+.hero {
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.hero-big {
+  opacity: 0.5;
+}
+.hero-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  background-color: var(--text-hover-color);
+  color: var(--white-color);
+}
+.hero-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.advantages:hover {
+  background-color: var(--text-hover-color);
+}
+.advantages-list {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--secondary-font-color);
+}
+.advantages-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.heading-section {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  color: var(--secondary-font-color);
+}
+.activities-list {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.team-members {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--secondary-font-color);
+}
+.team-members-position {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}

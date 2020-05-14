@@ -1,0 +1,42 @@
+/*main font color #757575 */
+/*secondary font color #212121 */
+/*text hover color #2196F3 */
+/*white color #FFFFFF */
+/*grey icons #AFB1B8 */
+/*big icons fill, our team fill #F5F4FA */
+/*footer color #2F303A */
+/*footer-text-gray rgba(255, 255, 255, 0.6) */
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+.portfolio-categories {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--secondary-font-color);
+}
+.portfolio-items-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--secondary-font-color);
+}
+.portfolio-items-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--main-font-color);
+}
+.portfolio-items-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.6;
+}
