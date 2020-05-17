@@ -9,13 +9,18 @@
 /*font-family: 'Roboto', sans-serif;
 font-family: 'Raleway', sans-serif;*/
 
-.portfolio-categories {
+.portfolio-categories-buttons {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.7;
-  color: var(--secondary-font-color);
+  background-color: var(--big-icons-fill-our-team-fill);
+}
+.portfolio-categories-buttons:hover,
+.portfolio-categories-buttons:focus {
+  background-color: var(--text-hover-color);
+  color: var(--white-color);
 }
 .portfolio-items-name {
   font-family: Roboto;
