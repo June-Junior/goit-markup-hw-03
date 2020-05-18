@@ -18,7 +18,14 @@ font-family: 'Raleway', sans-serif;*/
   --footer-text-gray: rgba(255, 255, 255, 0.6);
   --big-icons-fill-our-team-fill: #f5f4fa;
 }
-
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 body {
   background-color: var(--white-color);
   color: var(--main-font-color);
@@ -51,7 +58,10 @@ body {
   line-height: 1.2;
   color: var(--main-font-color);
 }
-
+/*скрыть элемент*/
+.is-hidden {
+  display: none;
+}
 /*убрать подчеркивания ссылок*/
 a {
   text-decoration: none;

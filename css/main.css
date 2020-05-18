@@ -33,6 +33,21 @@ font-family: 'Raleway', sans-serif;*/
   text-transform: uppercase;
   color: var(--white-color);
 }
+.section-block-advantages {
+  background-color: teal;
+  padding: 94px 200px;
+}
+.block-advantages-1to3 {
+  margin-right: 30px;
+  width: 278px;
+  height: 250px;
+  list-style: none;
+}
+.block-advantages-number4 {
+  width: 278px;
+  height: 250px;
+  list-style: none;
+}
 .advantages:hover {
   background-color: var(--text-hover-color);
 }
@@ -44,6 +59,7 @@ font-family: 'Raleway', sans-serif;*/
   line-height: 1.2;
   text-transform: uppercase;
   color: var(--secondary-font-color);
+  margin: 0;
 }
 .advantages-description {
   font-family: Roboto;
@@ -51,12 +67,14 @@ font-family: 'Raleway', sans-serif;*/
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
+  margin: 0;
 }
 .heading-section {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
+  text-align: center;
   line-height: 1.2;
   color: var(--secondary-font-color);
 }
