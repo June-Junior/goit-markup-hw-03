@@ -93,6 +93,12 @@ a:hover,
 a:focus {
   color: var(--text-hover-color);
 }
+/*container*/
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .footer-address-first-part {
   font-family: Roboto;
   font-style: normal;
