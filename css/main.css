@@ -38,6 +38,9 @@ font-family: 'Raleway', sans-serif;*/
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.addbackground {
+  background-color: var(--big-icons-fill-our-team-fill);
+}
 .our-advantages {
   display: flex;
 }
@@ -118,6 +121,7 @@ font-family: 'Raleway', sans-serif;*/
   border-radius: 3px;
   height: 422px;
   width: 270px;
+  background-color: var(--white-color);
 }
 .our-team__item:last-child {
   margin-right: 0;
@@ -156,8 +160,10 @@ font-family: 'Raleway', sans-serif;*/
 }
 .our-clients__link {
   display: inline-block;
+  background-position: center;
 }
 .our-clients__icon {
+  background-position: center;
 }
 .our-clients__icon:hover {
   background-color: var(--text-hover-color);
