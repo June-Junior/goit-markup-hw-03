@@ -19,46 +19,63 @@
 
   <body>
     <header class="page-header">
-      <nav>
-        <a href="./index.html" lang="en" class="logo"
-          ><span class="webcolour">Web</span> Studio</a
-        >
-        <ul class="site-nav">
-          <li><a href="./index.html">Cтудия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
-        </ul>
-      </nav>
-      <div class="contacts">
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380991111111">+38 099 111 11 11</a>
-        <a href="tel:+380991111111" class="test-link">+38 099 111 11 11</a>
+      <div class="container header-container">
+        <nav class="site-nav">
+          <a href="./index.html" lang="en" class="logo"
+            ><span class="webcolour">Web</span> Studio</a
+          >
+          <ul class="site-nav__list">
+            <li class="site-nav__item"><a href="./index.html">Cтудия</a></li>
+            <li class="site-nav__item">
+              <a href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="site-nav__item"><a href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="contacts">
+          <a class="contacts__button" href="mailto:info@devstudio.com"
+            >info@devstudio.com
+            <img
+              class="contacts__icon"
+              src="./images/envelope-header.svg"
+              alt="ссылка-конверт"
+            />
+          </a>
+          <a class="contacts__button" href="tel:+380991111111" class="test-link"
+            >+38 099 111 11 11
+            <img
+              class="contacts__icon"
+              src="./images/smartphone-header.svg"
+              alt="ссылка-телефон"
+            />
+          </a>
+        </div>
       </div>
     </header>
-
+<!--Portfolio-Main-->
     <main>
-      <div class="container">
-        <section>
-          <h1 class="is-hidden">Выбор Категории Портфолио</h1>
-          <ul>
-            <li>
-              <button class="portfolio-categories-buttons">Все</button>
-            </li>
-            <li>
-              <button class="portfolio-categories-buttons">Веб-Сайты</button>
-            </li>
-            <li>
-              <button class="portfolio-categories-buttons">Приложения</button>
-            </li>
-            <li>
-              <button class="portfolio-categories-buttons">Дизайн</button>
-            </li>
-            <li>
-              <button class="portfolio-categories-buttons">Маркетинг</button>
-            </li>
-          </ul>
+        <section class="section">
+          <div class="container">
+            <h1 class="is-hidden">Выбор Категории Портфолио</h1>
+            <ul class="portfolio-chapters>
+              <li>
+                <button class="portfolio-chapters__buttons">Все</button>
+              </li>
+              <li>
+                <button class="portfolio-chapters__buttons">Веб-Сайты</button>
+              </li>
+              <li>
+                <button class="portfolio-chapters__buttons">Приложения</button>
+              </li>
+              <li>
+                <button class="portfolio-chapters__buttons">Дизайн</button>
+              </li>
+              <li>
+                <button class="portfolio-chapters__buttons">Маркетинг</button>
+              </li>
+            </ul>
+          </div>
         </section>
-      </div>
       <div class="container">
         <section>
           <h2 class="is-hidden">Содержимое Портфолио</h2>
@@ -188,38 +205,42 @@
     </main>
     <footer class="footer-background">
       <div>
-        <a href="./index.html" lang="en" class="logo-footer"
-          ><span class="webcolour">Web</span> Studio
-        </a>
-
-        <address>
-          <a class="footer-address-first-part" href=""
-            >г. Киев, пр-т Леси Украинки, 26</a
-          ><br />
-          <a class="footer-address-second-part" href="mailto:info@devstudio.com"
-            >Send Email</a
-          ><br />
-          <a class="footer-address-second-part" href="tel:+380991111111"
-            >+38 099 111 11 11
+        <div>
+          <a href="./index.html" lang="en" class="logo-footer"
+            ><span class="webcolour">Web</span> Studio
           </a>
-        </address>
+
+          <address>
+            <a class="footer-address-first-part" href=""
+              >г. Киев, пр-т Леси Украинки, 26</a
+            ><br />
+            <a
+              class="footer-address-second-part"
+              href="mailto:info@devstudio.com"
+              >Send Email</a
+            ><br />
+            <a class="footer-address-second-part" href="tel:+380991111111"
+              >+38 099 111 11 11
+            </a>
+          </address>
+        </div>
+        <div>
+          <b class="footer-subscription">Присоединяйтесь</b>
+          <ul class="footer-social-links">
+            <li><a href="" aria-label="Ссылка на инстаграм">Instagram</a></li>
+            <li><a href="" aria-label="Ссылка на твиттер">Twitter</a></li>
+            <li><a href="" aria-label="Ссылка на фейсбук">Facebook</a></li>
+            <li><a href="" aria-label="Ссылка на линкедин">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div>
+          <b class="footer-subscription">Подпишитесь на рассылку</b>
+          <button class="footer-button">Подписаться</button>
+        </div>
+        <p class="developers">
+          2020 | Developed by GoIT Students
+        </p>
       </div>
-      <div>
-        <b class="footer-subscription">Присоединяйтесь</b>
-        <ul class="footer-social-links">
-          <li><a href="" aria-label="Ссылка на инстаграм">Instagram</a></li>
-          <li><a href="" aria-label="Ссылка на твиттер">Twitter</a></li>
-          <li><a href="" aria-label="Ссылка на фейсбук">Facebook</a></li>
-          <li><a href="" aria-label="Ссылка на линкедин">LinkedIn</a></li>
-        </ul>
-      </div>
-      <div>
-        <b class="footer-subscription">Подпишитесь на рассылку</b>
-        <button class="footer-button">Подписаться</button>
-      </div>
-      <p class="developers">
-        2020 | Developed by GoIT Students
-      </p>
     </footer>
   </body>
 </html>

@@ -8,8 +8,17 @@
 /*footer-text-gray rgba(255, 255, 255, 0.6) */
 /*font-family: 'Roboto', sans-serif;
 font-family: 'Raleway', sans-serif;*/
-
-.portfolio-categories-buttons {
+.portfolio-chapters {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  height: 38px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.portfolio-chapters__buttons {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -17,8 +26,8 @@ font-family: 'Raleway', sans-serif;*/
   line-height: 1.7;
   background-color: var(--big-icons-fill-our-team-fill);
 }
-.portfolio-categories-buttons:hover,
-.portfolio-categories-buttons:focus {
+.portfolio-chapters__buttons:hover,
+.portfolio-chapters__buttons:focus {
   background-color: var(--text-hover-color);
   color: var(--white-color);
 }
