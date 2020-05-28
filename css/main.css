@@ -9,12 +9,25 @@
 /*font-family: 'Roboto', sans-serif;
 font-family: 'Raleway', sans-serif;*/
 .hero {
+  display: flex;
+  color: var(--white-color);
   background-color: rgba(47, 48, 58, 0.8);
+  max-width: 1600px;
+  min-height: 600px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.hero-big {
+.hero__big {
   opacity: 0.5;
 }
-.hero-button {
+.hero__button {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -23,13 +36,15 @@ font-family: 'Raleway', sans-serif;*/
   background-color: var(--text-hover-color);
   color: var(--white-color);
 }
-.hero-text {
+.hero__text {
+  width: 696px;
+  height: 120px;
+  margin-bottom: 30px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
   text-transform: uppercase;
   color: var(--white-color);
 }
@@ -51,18 +66,18 @@ font-family: 'Raleway', sans-serif;*/
   margin-right: 0;
 }
 .our-advantages__link {
-  display: inline-block;
+  display: flex;
   height: 120px;
   width: 270px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: var(--big-icons-fill-our-team-fill);
 }
 .our-advantages__link:hover {
   background-color: var(--text-hover-color);
 }
 .our-advantages__icon {
-  margin-right: 100px;
-  margin-left: 100px;
-  margin-top: 25px;
-  margin-bottom: 25px;
 }
 .our-advantages__heading {
   font-family: Roboto;
@@ -104,6 +119,8 @@ font-family: 'Raleway', sans-serif;*/
   margin-right: 0;
 }
 .our-activities__subheadings {
+  margin-top: 27px;
+  margin-bottom: 27px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -150,6 +167,9 @@ font-family: 'Raleway', sans-serif;*/
   display: flex;
 }
 .our-clients__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-right: 30px;
   height: 90px;
   width: 170px;
@@ -160,8 +180,6 @@ font-family: 'Raleway', sans-serif;*/
   margin-right: 0;
 }
 .our-clients__link {
-  display: flex;
-  justify-content: center;
 }
 .our-clients__icon:hover {
   background-color: var(--text-hover-color);

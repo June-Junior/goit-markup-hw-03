@@ -11,9 +11,6 @@ font-family: 'Raleway', sans-serif;*/
 .portfolio-chapters {
   display: flex;
   justify-content: center;
-  height: 38px;
-  margin-right: auto;
-  margin-left: auto;
   margin-bottom: 50px;
 }
 .portfolio-chapters__items {
@@ -23,6 +20,11 @@ font-family: 'Raleway', sans-serif;*/
   margin-right: 0;
 }
 .portfolio-chapters__buttons {
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 4px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;

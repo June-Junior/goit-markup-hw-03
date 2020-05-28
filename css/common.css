@@ -48,6 +48,7 @@ ul {
   list-style: none;
 }
 body {
+  display: grid;
   background-color: var(--white-color);
   color: var(--main-font-color);
 }
@@ -230,6 +231,9 @@ a:focus {
   color: var(--footer-text-gray);
 }
 .footer-button {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
