@@ -130,7 +130,6 @@ a {
   text-decoration: none;
   color: var(--secondary-font-color);
 }
-
 a:hover,
 a:focus {
   color: var(--text-hover-color);
@@ -144,24 +143,20 @@ a:focus {
   padding-right: 15px;
   background-color: var(--white-color);
 }
-.footer-address-first-part {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  color: var(--white-color);
+.footer-background {
+  background-color: var(--footer-color);
 }
-.footer-address-second-part {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  color: var(--footer-text-gray);
+.footer-subdivision {
+  display: flex;
+  flex-wrap: wrap;
 }
-
-.logo-footer {
+.footer-subdivision__address {
+  margin-top: 48px;
+  margin-bottom: 28px;
+  margin-right: 69px;
+  width: 231px;
+}
+.footer-subdivision__logo-footer {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -169,14 +164,43 @@ a:focus {
   line-height: 1.2;
   color: var(--white-color);
 }
-.webcolour {
+.footer-subdivision__web-colour {
   color: var(--text-hover-color);
 }
-
-.footer-background {
-  background-color: var(--footer-color);
+.footer-subdivision__footer-address-first-part {
+  display: inline-block;
+  margin-top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--white-color);
 }
-.footer-subscription {
+.footer-subdivision__footer-address-second-part {
+  display: inline-block;
+  margin-top: 9px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--footer-text-gray);
+}
+.footer-subdivision__social-media {
+  margin-top: 56px;
+  margin-bottom: 56px;
+  margin-right: 94px;
+  width: 206px;
+}
+.footer-subdivision__subscription {
+  margin-top: 56px;
+  margin-bottom: 50px;
+  width: 570px;
+}
+.footer-subdivision__social-media-header {
+  display: inline-block;
+  margin-bottom: 21px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -185,10 +209,19 @@ a:focus {
   text-transform: uppercase;
   color: var(--white-color);
 }
-.footer-social-links {
+.footer-subdivision__social-media-links {
   color: var(--white-color);
 }
-.developers {
+.footer-subdivision__developers {
+  width: 1170px;
+  height: 60px;
+  border-top: 1px solid var(--footer-text-gray);
+}
+.footer-subdivision__developers-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+  margin-bottom: 21px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;

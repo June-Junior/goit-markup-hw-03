@@ -151,19 +151,17 @@ font-family: 'Raleway', sans-serif;*/
 }
 .our-clients__item {
   margin-right: 30px;
-  border-radius: 4px;
   height: 90px;
   width: 170px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 .our-clients__item:last-child {
   margin-right: 0;
 }
 .our-clients__link {
-  display: inline-block;
-  background-position: center;
-}
-.our-clients__icon {
-  background-position: center;
+  display: flex;
+  justify-content: center;
 }
 .our-clients__icon:hover {
   background-color: var(--text-hover-color);
