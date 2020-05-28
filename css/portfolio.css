@@ -11,12 +11,16 @@ font-family: 'Raleway', sans-serif;*/
 .portfolio-chapters {
   display: flex;
   justify-content: center;
-  width: 1200px;
   height: 38px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  margin-bottom: 50px;
+}
+.portfolio-chapters__items {
+  margin-right: 8px;
+}
+.portfolio-chapters__items:last-child {
+  margin-right: 0;
 }
 .portfolio-chapters__buttons {
   font-family: Roboto;
@@ -31,7 +35,21 @@ font-family: 'Raleway', sans-serif;*/
   background-color: var(--text-hover-color);
   color: var(--white-color);
 }
-.portfolio-items-name {
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-list__items {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.portfolio-list__items:nth-child(3n + 3) {
+  margin-right: 0;
+}
+.portfolio-list__items:nth-child(n + 7) {
+  margin-bottom: 0;
+}
+.portfolio-list__item-heading {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -39,7 +57,7 @@ font-family: 'Raleway', sans-serif;*/
   line-height: 2;
   color: var(--secondary-font-color);
 }
-.portfolio-items-description {
+.portfolio-list__item-category {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -47,7 +65,7 @@ font-family: 'Raleway', sans-serif;*/
   line-height: 1.9;
   color: var(--main-font-color);
 }
-.portfolio-items-text {
+.portfolio-list__item-text {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
