@@ -230,7 +230,7 @@ a:focus {
   line-height: 2;
   color: var(--footer-text-gray);
 }
-.footer-button {
+.footer-subdivision__button {
   width: 200px;
   height: 50px;
   border-radius: 4px;
@@ -241,4 +241,5 @@ a:focus {
   line-height: 1.8;
   background-color: var(--text-hover-color);
   color: var(--white-color);
+  border: none;
 }

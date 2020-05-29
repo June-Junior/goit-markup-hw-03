@@ -35,6 +35,7 @@ font-family: 'Raleway', sans-serif;*/
   line-height: 1.8;
   background-color: var(--text-hover-color);
   color: var(--white-color);
+  border: none;
 }
 .hero__text {
   width: 696px;
@@ -78,6 +79,9 @@ font-family: 'Raleway', sans-serif;*/
   background-color: var(--text-hover-color);
 }
 .our-advantages__icon {
+}
+.our-advantages__icon:hover {
+  fill: white;
 }
 .our-advantages__heading {
   font-family: Roboto;
@@ -135,15 +139,18 @@ font-family: 'Raleway', sans-serif;*/
 }
 .our-team__item {
   margin-right: 30px;
-  border-radius: 3px;
+  border-radius: 4px;
   height: 422px;
   width: 270px;
   background-color: var(--white-color);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
 }
 .our-team__item:last-child {
   margin-right: 0;
 }
 .our-team__employee {
+  margin-bottom: 10px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -153,6 +160,7 @@ font-family: 'Raleway', sans-serif;*/
   text-align: center;
 }
 .our-team__employee-position-name {
+  margin-bottom: 16px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
