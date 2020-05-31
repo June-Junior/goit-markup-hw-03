@@ -100,7 +100,7 @@ body {
   line-height: 1.2;
   color: var(--main-font-color);
   align-items: center;
-  margin-left: 305px;
+  margin-left: auto;
 }
 .contacts__button {
   display: flex;
@@ -150,9 +150,9 @@ a:focus {
 .footer-subdivision {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 48px;
 }
 .footer-subdivision__address {
-  margin-top: 48px;
   margin-bottom: 28px;
   margin-right: 69px;
   width: 231px;
@@ -189,13 +189,11 @@ a:focus {
   color: var(--footer-text-gray);
 }
 .footer-subdivision__social-media {
-  margin-top: 56px;
   margin-bottom: 56px;
   margin-right: 94px;
   width: 206px;
 }
 .footer-subdivision__subscription {
-  margin-top: 56px;
   margin-bottom: 50px;
   width: 570px;
 }
@@ -217,12 +215,11 @@ a:focus {
   width: 1170px;
   height: 60px;
   border-top: 1px solid var(--footer-text-gray);
+  padding-top: 18px;
 }
 .footer-subdivision__developers-text {
   display: flex;
   justify-content: center;
-  margin-top: 18px;
-  margin-bottom: 21px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
